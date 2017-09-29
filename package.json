@@ -1,6 +1,6 @@
 {
   "name": "xair-css",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "xair,css,less",
   "main": "dist/index.css",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "author": "kelin 315148032@qq.com",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^7.1.4",
     "gulp": "^3.9.1",
     "gulp-cssnano": "^2.1.2",
