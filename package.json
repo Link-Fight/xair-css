@@ -1,0 +1,26 @@
+{
+  "name": "xair-css",
+  "version": "0.0.1",
+  "description": "xair,css,less",
+  "main": "dist/index.css",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "style": "dist/index.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Link-Fight/xair-css.git"
+  },
+  "author": "kelin 315148032@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^7.1.4",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-less": "^3.3.2",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "postcss-discard-comments": "^2.0.4"
+  }
+}

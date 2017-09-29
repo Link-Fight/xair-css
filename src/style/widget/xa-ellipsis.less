@@ -1,0 +1,7 @@
+@import "../base/fn";
+.generate-ellipsis(@n,@i:1) when(@i<@n){
+    .xa-t__ellipsis-@{i}{
+        .ellipsisLn(@i)
+    }
+}
+.generate-ellipsis(3);
