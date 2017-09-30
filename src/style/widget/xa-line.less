@@ -1,0 +1,38 @@
+@import "../base/fn";
+@lineColor:#aaa;
+
+.xa-line{
+    position: relative;
+    overflow: hidden;
+    &:before{
+        .setTopLine(@lineColor)
+    }
+    &:after{
+        .setBottomLine(@lineColor)
+    }
+}
+
+.xa-line_{
+    position: relative;
+    overflow: hidden;
+    &t{
+        &:before{
+            .setTopLine(@lineColor)
+        }
+    }
+    &b{
+        &:after{
+            .setBottomLine(@lineColor)
+        }
+    }
+    &l{
+        &:before{
+            .setLeftLine(@lineColor)
+        }
+    }
+    &r{
+        &:after{
+            .setRightLine(@lineColor)
+        }
+    }
+}
