@@ -1,6 +1,6 @@
 {
   "name": "xair-css",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "xair,css,less",
   "main": "dist/index.css",
   "scripts": {

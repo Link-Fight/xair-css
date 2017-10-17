@@ -1,9 +1,11 @@
 @import "../base/fn";
 @lineColor:#aaa;
-
-.xa-line{
+.overflow(){
     position: relative;
     overflow: hidden;
+}
+.xa-line{
+   .overflow();
     &:before{
         .setTopLine(@lineColor)
     }
@@ -13,24 +15,26 @@
 }
 
 .xa-line_{
-    position: relative;
-    overflow: hidden;
     &t{
+        .overflow();
         &:before{
             .setTopLine(@lineColor)
         }
     }
     &b{
+        .overflow();
         &:after{
             .setBottomLine(@lineColor)
         }
     }
     &l{
+        .overflow();
         &:before{
             .setLeftLine(@lineColor)
         }
     }
     &r{
+        .overflow();
         &:after{
             .setRightLine(@lineColor)
         }
