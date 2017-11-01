@@ -32,10 +32,17 @@ input{
     -webkit-tap-highlight-color:transparent
 }
 
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    -webkit-text-fill-color: #333;
+}
+
 input:focus{
     outline: 0;
     -webkit-tap-highlight-color:transparent
 }
+
+[type=reset], [type=submit], button, html [type=button] {-webkit-appearance: button;}
 
 li,ul{margin:0;padding:0;list-style:none}
 
