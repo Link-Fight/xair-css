@@ -1,8 +1,8 @@
 {
   "name": "xair-css",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "xair,css,less",
-  "main": "dist/index.css",
+  "main": "dist/index.min.css",
   "scripts": {
     "build": "gulp build"
   },
